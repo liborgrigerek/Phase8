@@ -1,15 +1,11 @@
 package cz.morosystems.phase8.service;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import cz.morosystems.phase8.dao.AccountDAO;
-import cz.morosystems.phase8.dao.UserDAO;
 import cz.morosystems.phase8.entity.AccountEntity;
-import cz.morosystems.phase8.entity.UserEntity;
 
 @Service
 public class AccountManagerImpl implements AccountManager {

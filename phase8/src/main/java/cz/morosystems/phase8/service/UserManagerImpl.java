@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import cz.morosystems.phase8.dao.UserDAO;
-import cz.morosystems.phase8.entity.AccountEntity;
-import cz.morosystems.phase8.entity.BookEntity;
 import cz.morosystems.phase8.entity.UserEntity;
 
 @Service

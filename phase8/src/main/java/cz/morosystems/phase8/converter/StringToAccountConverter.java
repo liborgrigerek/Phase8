@@ -3,14 +3,11 @@ package cz.morosystems.phase8.converter;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.core.convert.converter.Converter;
 
 import cz.morosystems.phase8.entity.AccountEntity;
-import cz.morosystems.phase8.entity.BookEntity;
-import cz.morosystems.phase8.service.AccountManager;
 
 public class StringToAccountConverter implements Converter<String, AccountEntity> {
 

@@ -1,9 +1,6 @@
 package cz.morosystems.phase8.dao;
 
-import java.util.List;
-
 import cz.morosystems.phase8.entity.BookEntity;
-import cz.morosystems.phase8.entity.UserEntity;
 
 public interface BookDAO {
 	public BookEntity getBook(Integer bookId);

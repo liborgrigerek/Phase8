@@ -3,17 +3,13 @@ package cz.morosystems.phase8.dao;
 import java.util.List;
 
 import org.hibernate.Criteria;
-import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Order;
-import org.hibernate.criterion.Projections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import cz.morosystems.phase8.entity.AdminEntity;
-import cz.morosystems.phase8.entity.BookEntity;
-import cz.morosystems.phase8.entity.UserEntity;
 
 @Repository
 public class AdminDaoImpl implements AdminDAO  {

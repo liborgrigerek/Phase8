@@ -3,7 +3,6 @@ package cz.morosystems.phase8.service;
 import java.util.List;
 
 import cz.morosystems.phase8.entity.AdminEntity;
-import cz.morosystems.phase8.entity.UserEntity;
 
 public interface AdminManager {
 	public AdminEntity getAdmin(Integer id);

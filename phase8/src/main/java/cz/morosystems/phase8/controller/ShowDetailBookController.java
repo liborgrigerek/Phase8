@@ -1,7 +1,6 @@
 package cz.morosystems.phase8.controller;
 
 import javax.validation.Valid;
-import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
@@ -12,11 +11,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.view.RedirectView;
 
 import cz.morosystems.phase8.entity.BookEntity;
 import cz.morosystems.phase8.entity.UserEntity;
-import cz.morosystems.phase8.service.AccountManager;
 import cz.morosystems.phase8.service.BookManager;
 import cz.morosystems.phase8.service.UserManager;
 

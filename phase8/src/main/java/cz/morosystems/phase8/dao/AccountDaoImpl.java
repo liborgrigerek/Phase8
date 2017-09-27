@@ -1,16 +1,11 @@
 package cz.morosystems.phase8.dao;
 
-import java.util.List;
-
 import org.hibernate.SessionFactory;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import cz.morosystems.phase8.entity.AccountEntity;
-import cz.morosystems.phase8.entity.BookEntity;
 
 @Repository
 public class AccountDaoImpl implements AccountDAO  {

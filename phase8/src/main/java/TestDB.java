@@ -18,6 +18,7 @@ public class TestDB {
 		Class.forName("org.postgresql.Driver").newInstance();
 		// Establish connection
 		Connection conn = DriverManager.getConnection(url, user, password);
+		conn.close();
 		System.out.println("Successfully connected to db");
 		}
 		catch(Exception e)

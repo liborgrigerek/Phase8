@@ -6,18 +6,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
 
-import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Entity
 @Table(name = "ADMINTABLE")
 public class AdminEntity {
 
-	private static final long serialVersionUID = 1L;
-	
 	private static BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
 	@Id

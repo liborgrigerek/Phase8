@@ -1,12 +1,10 @@
 package cz.morosystems.phase8.converter;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.core.convert.converter.Converter;
 
 import cz.morosystems.phase8.entity.BookEntity;
-import cz.morosystems.phase8.service.BookManager;
 
 public class StringToBookConverter implements Converter<String, BookEntity> {
 	
